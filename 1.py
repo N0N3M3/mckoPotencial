@@ -1,6 +1,6 @@
 def main():
     """
-    Функция считывает данные из books.csv,записывает необходимые книги в books_rowling.csv и
+    Функция считывает данные из files/books.csv,записывает необходимые книги в books_rowling.csv и
     выводит книги с рейтингом >8
     """
     with open("files/books.csv", encoding="utf-8") as f:

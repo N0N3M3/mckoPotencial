@@ -1,6 +1,6 @@
 def main():
     """
-    Функция считывает данные из books.csv и выводит
+    Функция считывает данные из files/books.csv и выводит
     10 авторов с самым большим средним рейтингом
     """
     with open("files/books.csv", encoding="utf-8") as f:

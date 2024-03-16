@@ -28,7 +28,7 @@ def quick_sort(a):
 
 def main():
     """
-    Функция считывает данные из books.csv и выводит
+    Функция считывает данные из files/books.csv и выводит
     3 худшие книги
     """
     with open("files/books.csv", encoding="utf-8") as f:

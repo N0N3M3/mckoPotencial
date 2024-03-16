@@ -14,8 +14,8 @@ def get_rating(book_rating):
 
 def main():
     """
-    Функция считывает данные из books_rowling.csv и выводит
-    ответ в соответвии с условием
+    Фукция считывает со стандартного ввода название csv файла и записывает данные с ярлыком рекомендаций
+    в файл books_grade.csv
     """
     csv_file = input("Введите название csv файла: ")
     with open(csv_file, encoding="utf-8") as f:
