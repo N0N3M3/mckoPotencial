@@ -13,7 +13,7 @@ def quick_sort(a):
     """
     Данная функция сортирует массив используя алгоритм quick sort
     со средней сложностью O(n logn)
-    :param a:
+    :param a: массив с элементами класса Data
     :return:
     """
     if len(a) > 1:
