@@ -1,4 +1,9 @@
 def get_rating(book_rating):
+    """
+    Функция для определения ярлыка для системы рекомендаций
+    :param book_rating: рейтинг книги
+    :return: ярлык для системы рекомендаций
+    """
     if book_rating < 5:
         return "не рекомендовать"
     elif 5 <= book_rating < 8:
